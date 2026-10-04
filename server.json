@@ -2,13 +2,17 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.agentoolrank/agent-tools",
   "title": "AgentoolRank",
-  "description": "Search, compare and list 460+ open-source AI agent tools ranked by live GitHub activity.",
+  "description": "Search and compare open-source AI agent tools ranked by live GitHub activity, and list new ones.",
   "websiteUrl": "https://agentoolrank.com/agents",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://agentoolrank.com/api/mcp"
     }
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/agent-gigmole/agentoolrank-mcp",
+    "source": "github"
+  }
 }
