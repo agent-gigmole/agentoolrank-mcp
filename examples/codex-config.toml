@@ -1,0 +1,3 @@
+# ~/.codex/config.toml — remote MCP server over Streamable HTTP
+[mcp_servers.agentoolrank]
+url = "https://agentoolrank.com/api/mcp"

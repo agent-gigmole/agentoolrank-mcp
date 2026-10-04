@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "agentoolrank": { "url": "https://agentoolrank.com/api/mcp" }
+  }
+}
