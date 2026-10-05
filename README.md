@@ -17,7 +17,10 @@ Search and compare open-source AI agent tools from your AI assistant, ranked by 
 | `get_alternatives(slug)` | Open-source alternatives to a tool, with their GitHub stats. |
 | `submit_tool(url, name, tagline, email, …)` | List a tool. The response shows every pricing option up front, including the free one. |
 | `get_submission_status(submission_id, status_token)` | Review status of a submission. |
-| `recommend_directories(product_type)` | Launch directories our own products went through, with free-tier conditions and the steps only a person can do. The top 10 are free. |
+| `recommend_directories(product_type)` | Launch directories our own products went through, with free-tier conditions and the steps only a person can do. The top 5 for each product type are free. |
+| `next_directory(key, product_type?)` | Submit Kit key (9): hands your agent the next directory that fits the product, one at a time (up to 50, at most 3 unreported). |
+| `report_result(key, domain, status, listing_url?)` | Submit Kit key: report what happened at a directory. Reports are leads; listing rates count only listings our own daily check verifies. |
+| `my_progress(key)` | Submit Kit key: every directory handed out so far and its reported status (also at agentoolrank.com/submit-kit/progress). |
 
 ## Connect
 
