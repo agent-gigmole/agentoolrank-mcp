@@ -1,5 +1,7 @@
 # AgentoolRank MCP server
 
+[![MCP Badge](https://lobehub.com/badge/mcp/agent-gigmole-agentoolrank-mcp)](https://lobehub.com/mcp/agent-gigmole-agentoolrank-mcp)
+
 Search and compare open-source AI agent tools from your AI assistant, ranked by live GitHub activity.
 
 [AgentoolRank](https://agentoolrank.com) tracks hundreds of open-source AI agent tools (frameworks, coding agents, memory, RAG, evals, MCP servers) and ranks them by GitHub activity: stars, star pace, commits, releases and package downloads, refreshed daily. This repository documents how to connect to its hosted MCP server and JSON API. The server runs on agentoolrank.com; there is nothing to install or self-host.
