@@ -4,7 +4,7 @@
   "title": "AgentoolRank",
   "description": "Search and compare open-source AI agent tools ranked by live GitHub activity, with compare prompts.",
   "websiteUrl": "https://agentoolrank.com/agents",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "remotes": [
     {
       "type": "streamable-http",
