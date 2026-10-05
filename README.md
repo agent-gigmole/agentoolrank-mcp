@@ -24,6 +24,23 @@ Search and compare open-source AI agent tools from your AI assistant, ranked by 
 | `report_result(key, domain, status, listing_url?)` | Submit Kit key: report what happened at a directory. Reports are leads; listing rates count only listings our own daily check verifies. |
 | `my_progress(key)` | Submit Kit key: every directory handed out so far and its reported status (also at agentoolrank.com/submit-kit/progress). |
 
+## Prompts
+
+Ready-made prompts your MCP client can offer (`prompts/list`, `prompts/get`):
+
+| Prompt | Arguments | What it does |
+| --- | --- | --- |
+| `compare_tools` | `tool_a`, `tool_b` | Compares two tools side by side: GitHub stars, 30-day star growth, last release, downloads, best for, limitations |
+| `find_alternatives` | `tool` | Lists open-source alternatives to a tool, ranked by live GitHub activity |
+| `launch_plan` | `product_type` (`ai_tool`, `mcp_server`, `dev_tool`, `saas`, `other`), optional `product_url` | Plans where to list a new product: which launch directories fit it and which to skip |
+
+## Resources
+
+| URI | Content |
+| --- | --- |
+| `agentoolrank://about` | How the ranking works and what this server offers (Markdown) |
+| `agentoolrank://top-tools` | The current top 20 open-source AI agent tools by GitHub activity, live (Markdown table) |
+
 ## Connect
 
 ### Claude Code
